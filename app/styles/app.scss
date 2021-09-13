@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h4,
+div,
+a,
+button {
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica,
+    Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1024px;
+  min-height: 100vh;
+  background: #f9f9f9;
+  margin: 0 auto;
+}
+.floor h3 {
+  flex-basis: 100%;
+  display: inline;
+}
+
+.floor {
+  margin-top: 15px;
+  background-color: #f6f6f6;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #2e2f30;
+}
+
+.floor .structure {
+  flex-basis: 50%;
+  font-weight: 300;
+  font-style: italic;
+  white-space: nowrap;
+}
+.floor .structure .btn {
+  font-weight: 400;
+  font-style: normal;
+}
