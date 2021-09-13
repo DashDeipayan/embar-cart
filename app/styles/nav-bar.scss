@@ -1,0 +1,41 @@
+.navbar {
+  height: 4em;
+  background-color: #677ae4;
+  background-color: #05526a;
+  background-color: #e46855;
+}
+
+.navbar h1 {
+  position: relative;
+  padding: 5px 0 0 8px;
+  color: #f9f9f9;
+  font-size: 1.8em;
+  font-style: italic;
+}
+
+.navbar .index,
+.navbar .adders {
+  display: inline-block;
+}
+
+.navbar .index {
+  text-decoration: none;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .index:hover,
+.navbar .index.active {
+  opacity: 1;
+}
+
+.navbar .adders {
+  padding: 0 21px;
+}
+
+.navbar .adders .index {
+  position: relative;
+  top: 5px;
+}
