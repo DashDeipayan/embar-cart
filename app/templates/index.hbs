@@ -1,7 +1,7 @@
-<div class='floors'>
-  <ul class='results'>
-    {{#each this.floorList as |floor|}}
-      <li><Floor @floorCount={{floor}} /></li>
-    {{/each}}
-  </ul>
-</div>
+{{! <div class='floors'> }}
+<ul class='results'>
+  {{#each this.floorList as |floor|}}
+    <li><Floor @floorCount={{floor}} /></li>
+  {{/each}}
+</ul>
+{{! </div> }}

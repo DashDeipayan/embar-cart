@@ -3,11 +3,17 @@
     <h1>Lift Simulator</h1>
   </div>
   <div class='adders'>
-    <h4 class='navbar-addfloors'>
-      Add Floors
-    </h4>
-    <h4 class='navbar-addelevators'>
-      Add Elevators
-    </h4>
+    <div class='floor-field'>
+      <label class='label-addfloors'>
+        Add Floors
+      </label>
+      <InputBox @input-type='number' @item='Floor' @inputid='floor-count' />
+    </div>
+    <div class='elevator-field'>
+      <label class='label-addelevators'>
+        Add Elevators
+      </label>
+      <InputBox @input-type='number' @item='Elevator' @inputid='floor-count' />
+    </div>
   </div>
 </nav>
