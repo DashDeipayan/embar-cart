@@ -1,41 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .navbar {
   height: 4em;
-  background-color: #677ae4;
+  background-color: rgb(103, 122, 228);
   background-color: #05526a;
-  background-color: #e46855;
+  display: flex;
+  justify-content: space-between;
 }
-
-.navbar h1 {
-  position: relative;
-  padding: 5px 0 0 8px;
-  color: #f9f9f9;
-  font-size: 1.8em;
-  font-style: italic;
+.index {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
 }
-
-.navbar .index,
-.navbar .adders {
-  display: inline-block;
+.index h1 {
+  font-weight: 200;
+  font-size: 1.5em;
+  color: rgb(231, 208, 0);
 }
-
-.navbar .index {
-  text-decoration: none;
-  padding: 0 15px;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
+.adders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-right: 20px;
 }
-
-.navbar .index:hover,
-.navbar .index.active {
-  opacity: 1;
+.floor-field,
+.elevator-field {
+  display: flex;
+  gap: 10px;
 }
-
-.navbar .adders {
-  padding: 0 21px;
-}
-
-.navbar .adders .index {
-  position: relative;
-  top: 5px;
+.label-addfloors,
+.label-addelevators {
+  color: rgb(231, 208, 0);
 }

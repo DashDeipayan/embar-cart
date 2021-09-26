@@ -16,44 +16,28 @@ button {
   line-height: 1.5;
 }
 
-.container {
-  max-width: 1024px;
-  min-height: 100vh;
-  background: #f9f9f9;
-  margin: 0 auto;
+.body-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  row-gap: 30px;
 }
-// .floor h3 {
-//   flex-basis: 100%;
-//   display: inline;
-// }
 
-// .floor {
-//   margin-top: 15px;
-//   background-color: #f6f6f6;
-//   padding: 20px 25px;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   flex-wrap: wrap;
-//   border: 1px solid #2e2f30;
-// }
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  background: #b3b3b3;
+  margin: 0 auto;
+  width: 1000px;
+}
 
-// .floor .structure {
-//   flex-basis: 50%;
-//   font-weight: 300;
-//   font-style: italic;
-//   white-space: nowrap;
-// }
-// .floor .structure .btn {
-//   font-weight: 400;
-//   font-style: normal;
-// }
 .footer {
   font-weight: lighter;
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  position: fixed;
   height: 40px;
   bottom: 0;
+  border-bottom: 10px solid #0a87ad;
 }

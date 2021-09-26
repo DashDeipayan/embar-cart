@@ -1,26 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .floor h3 {
   flex-basis: 100%;
   display: inline;
+  color: #08556d;
 }
 
 .floor {
   margin-top: 15px;
-  background-color: #f6f6f6;
+  background-color: #f1eeca;
   padding: 20px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   border: 1px solid #2e2f30;
+  row-gap: 200px;
 }
 
 .floor .structure {
   flex-basis: 50%;
   font-weight: 300;
-  font-style: italic;
   white-space: nowrap;
 }
 .floor .structure .btn {
   font-weight: 400;
   font-style: normal;
+}
+.btn {
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: 40px;
+  grid-template-rows: 40px 40px;
+}
+
+.btn-up,
+.btn-down {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+.btn-up:hover,
+.btn-down:hover {
+  background-color: azure;
+  border: 1px solid pink;
+}
+.btn-up {
+  background-color: rgb(16, 185, 53);
+  border: 1px solid rgb(16, 185, 53);
+}
+.btn-down {
+  background-color: rgb(197, 18, 5);
+  border: 1px solid rgb(197, 18, 5);
+}
+.structure {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
 }
