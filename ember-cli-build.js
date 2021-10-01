@@ -10,6 +10,8 @@ module.exports = function (defaults) {
         css: {
           'nav-bar': '/assets/nav-bar.css',
           floor: '/assets/floor.css',
+          index: '/assets/index.css',
+          lift: '/assets/lift.css',
         },
       },
     },
