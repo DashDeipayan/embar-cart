@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.lift-layout {
+  width: 1000px;
+  background-color: red;
+  display: flex;
+}
+.lift {
+  height: 100px;
+  width: 70px;
+  bottom: 0;
+  left: 20vw;
+  border: 0.1rem solid rgba(0, 0, 0, 0.568);
+  display: flex;
+  /* display: none; */
+}
+
+.lift-door-left {
+  background: rgb(167, 167, 167);
+  width: 50%;
+  position: relative;
+}
+
+.lift-door-right {
+  width: 50%;
+  position: relative;
+  background: rgb(109, 109, 109);
+}
