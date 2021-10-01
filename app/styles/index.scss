@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+
+// .full-layout {
+//   position: absolute;
+// }
+.floors-lifts-layout {
+  position: relative;
+  // justify-content: center;
+}
+.lifts-list {
+  list-style-type: none;
+
+  position: absolute;
+  bottom: 0;
+  left: 250px;
+  right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-between;
+}

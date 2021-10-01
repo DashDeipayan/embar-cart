@@ -1,7 +1,15 @@
-{{! <div class='floors'> }}
-<ul class='results'>
-  {{#each this.floorList as |floor|}}
-    <li><Floor @floorCount={{floor}} /></li>
-  {{/each}}
-</ul>
-{{! </div> }}
+<div class='full-layout'>
+  <div class='floors-lifts-layout'>
+    <ul class='floors-list'>
+      {{#each this.floorList as |floor|}}
+        <li><Floor @floorCount={{floor}} /></li>
+      {{/each}}
+    </ul>
+    <ul class='lifts-list'>
+      <li><Lift /></li>
+      <li><Lift /></li>
+      <li><Lift /></li>
+      <li><Lift /></li>
+    </ul>
+  </div>
+</div>
